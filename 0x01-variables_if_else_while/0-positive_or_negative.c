@@ -4,8 +4,8 @@
 #include <stdio.h>
 
 /**
- * int main() - This is the entry point of this program.
- * @void: This argument tells the main function to not return anything.
+ * main - This is the entry point of this program.
+ * void: This argument tells the main function to not return anything.
  *
  * Return: The return value for main function
  */
