@@ -5,9 +5,11 @@
  *
  * Return: The return value for main function which is 0 for success.
  */
-int main() 
+int main()
 {
-	char cpgrm[] = "Programming is like building a multilingual puzzle\n";
-	puts(cpgrm);;
-	return 0;
+	char cpgrm;
+
+	cpgrm[] = "\"Programming is like building a multilingual puzzle\n";
+	puts(cpgrm);
+	return (0);
 }
