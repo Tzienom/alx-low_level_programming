@@ -7,6 +7,7 @@
 /**
  * int main() - This is the entry point of this program.
  * @void: This argument tells the main function to not return anything.
+ *
  * Return (0): The return value for main function
  */
 int main(void)
