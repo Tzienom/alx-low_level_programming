@@ -1,9 +1,10 @@
 #include <stdio.h>
 
-/** main - This is the entry point of this program.
+/**
+ * main - This is the entry point of this program.
  * void: This argument tells main function to not return anything.
  *
- * Return: This is the return value of the main function which is 0 if successful.
+ * Return: This is the return value of the main function.
  */
 int main(void)
 {
