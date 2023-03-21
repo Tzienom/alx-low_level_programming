@@ -14,7 +14,7 @@ int main(void)
 	for (lw_alphbt = 'a'; lw_alphbt <= 'z'; lw_alphbt++)
 		putchar(lw_alphbt);
 	for (up_alphbt = 'A'; up_alphbt <= 'Z'; up_alphbt++)
-                putchar(up_alphbt);
+		putchar(up_alphbt);
 	putchar('\n');
 	return (0);
 }
