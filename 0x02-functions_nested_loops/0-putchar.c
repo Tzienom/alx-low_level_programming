@@ -10,11 +10,11 @@
  */
 int main(void)
 {
-	char c[15];
-	long unsigned int i;
+	char c[9];
+	long [[un]signed [int]] i;
 
 	strcpy(c, "_putchar");
-	for (i = 0; i < sizeof(c)/sizeof(c[0]); i++)
+	for (i = 0; i < sizeof(c) / sizeof(c[0]); i++)
 		_putchar(c[i]);
 	_putchar('\n');
 	return (0);
