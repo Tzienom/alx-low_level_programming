@@ -8,15 +8,9 @@
  */
 void print_alphabet(void)
 {
-	int i;
+        char c;
 
-	for (i = 'a'; i <= 'z'; i++)
-		_putchar(i);
+        for (c = 'a'; c <= 'z'; c++)
+                _putchar(c);
 	_putchar('\n');
-}
-
-int main(void)
-{
-	print_alphabet();
-	return (0);
 }
