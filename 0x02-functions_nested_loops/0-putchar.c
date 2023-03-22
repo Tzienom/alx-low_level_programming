@@ -10,7 +10,7 @@
  */
 int main(void)
 {
-	char c[8];
+	char c[9];
 	long unsigned int i;
 
 	strcpy(c, "_putchar");
