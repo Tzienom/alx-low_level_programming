@@ -13,9 +13,8 @@ int main(void)
 	char c[9];
 	long unsigned int i;
 
-	strcpy(c, "_putchar");
+	strcpy(c, "_putchar\n");
 	for (i = 0; i < sizeof(c) / sizeof(c[0]); i++)
 		_putchar(c[i]);
-	_putchar('\n');
 	return (0);
 }
