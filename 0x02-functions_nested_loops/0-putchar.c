@@ -1,5 +1,4 @@
 #include "main.h"
-#include <string.h>
 
 /**
  * main - This is the entry point of this program.
@@ -10,10 +9,10 @@
  */
 int main(void)
 {
-	char c[] = "_putchar\n";
+	char c[] = " _putchar\n";
 	long unsigned int i;
 
-	for (i = 0; i < sizeof(c) / sizeof(c[0]); i++)
+	for (i = 1; i < sizeof(c) / sizeof(c[0]); i++)
 		_putchar(c[i]);
 	return (0);
 }
