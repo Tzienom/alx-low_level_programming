@@ -1,16 +1,16 @@
 #include "main.h"
 
 /**
- * main - check the code.
- * void: argument for main.
+ * print_alphabet - function to print alphabets.
+ * void: function has no return value.
  *
- * return: 0 if successful.
+ * return: void.
  */
 void print_alphabet(void)
 {
-        char c;
+	char c;
 
-        for (c = 'a'; c <= 'z'; c++)
-                _putchar(c);
+	for(c = 'a'; c <= 'z'; c++)
+		_putchar(c);
 	_putchar('\n');
 }
