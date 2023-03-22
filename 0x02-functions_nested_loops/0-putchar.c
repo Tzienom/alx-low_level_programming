@@ -11,7 +11,7 @@
 int main(void)
 {
 	char c[9];
-	long [[un]signed [int]] i;
+	long unsigned int i;
 
 	strcpy(c, "_putchar");
 	for (i = 0; i < sizeof(c) / sizeof(c[0]); i++)
