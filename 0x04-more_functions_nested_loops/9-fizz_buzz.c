@@ -9,17 +9,20 @@
 int main(void)
 {
 	int i;
+	int first;
 
+	first = 1;
 	for (i = 1; i <= 100; i++)
 	{
 		if (i % 3 == 0 && i % 5 == 0)
-			printf("FizzBuzz ");
+			printf("%sFizzBuzz", first ? "" : " ");
 		else if (i % 3 == 0)
-			printf("Fizz ");
+			printf("%sFizz", first ? "" : " ");
 		else if (i % 5 == 0)
-			printf("Buzz ");
+			printf("%sBuzz", first ? "" : " ");
 		else
-			printf("%d ", i);
+			printf("%s%d", first ? "" : " ", i);
+		first = 0;
 	}
 	printf("\n");
 	return (0);
