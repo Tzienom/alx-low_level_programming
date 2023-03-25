@@ -5,6 +5,7 @@
  * @c: argument for _isalpha.
  *
  * return: 1 if alphabet, and 0 for number.
+ * return: 0 if successful.
  */
 int _isalpha(int c)
 {
