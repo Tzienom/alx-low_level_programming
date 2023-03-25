@@ -6,8 +6,9 @@
  * @b: value to be added.
  *
  * return: the sum of computed integers.
+ * Return: a + b.
  */
-int add (int a, int b)
+int add(int a, int b)
 {
 	return (a + b);
 }
