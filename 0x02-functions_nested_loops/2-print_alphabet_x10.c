@@ -9,15 +9,13 @@
 
 void print_alphabet_x10(void)
 {
-	char c;
+	int i;
+	int j;
 
-	for (c = 'a'; c <= 'z'; c++)
-		_putchar(c);
-	_putchar('\n');
-}
-
-int print_tentimes(int i)
-{
 	for (i = 1; i <= 10; i++)
-		print_alphabet_x10();
+	{
+		for (j = 97; j <= 122; j++)
+			_putchar(j);
+		_putchar('\n');
+	}
 }
