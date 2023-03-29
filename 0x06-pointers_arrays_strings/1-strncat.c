@@ -2,8 +2,8 @@
 
 /**
  * *_strncat - function that concatenates two strings without the null-terminator.
- * *dest: pointer to hold concatenated string.
- * *src: source from which string is concatenated.
+ * @dest: pointer to hold concatenated string.
+ * @src: source from which string is concatenated.
  *
  * Return: dest.
  */
@@ -23,5 +23,5 @@ char *_strncat(char *dest, char *src, int n)
 		i++;
 		j++;
 	}
-	return dest;
+	return (dest);
 }
