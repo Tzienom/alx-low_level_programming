@@ -4,7 +4,7 @@
  * *string_toupper - function to change lowercase letters to uppercase.
  * @str: pointer parameter to be used for case conversion.
  *
- * Return: 
+ * Return: str.
  */
 char *string_toupper(char *str)
 {
@@ -21,5 +21,5 @@ char *string_toupper(char *str)
 		if (str[i] >= 97 && str[i] <= 122)
 			str[i] -= 32;
 	}
-	return str;
+	return (str);
 }
