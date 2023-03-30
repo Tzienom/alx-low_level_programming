@@ -1,11 +1,13 @@
 #include "main.h"
 
 /**
- * *_strncat - function that concatenates two strings without the null-terminator.
+ * *_strncat - function that concatenates two strings
+ * without the null-terminator.
  * @dest: pointer to hold concatenated string.
  * @src: source from which string is concatenated.
+ * @n: number of characters to be concatenated into dest.
  *
- * return: dest.
+ * Return: dest.
  */
 char *_strncat(char *dest, char *src, int n)
 {
@@ -16,7 +18,6 @@ char *_strncat(char *dest, char *src, int n)
 	j = 0;
 	while (dest[i] != '\0')
 		i++;
-
 	while (j < n && src[j] != '\0')
 	{
 		dest[i] = src[j];
