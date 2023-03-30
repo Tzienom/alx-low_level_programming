@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * _strncat - function that concatenates two strings without the null-terminator.
- * dest: pointer to hold concatenated string.
- * src: source from which string is concatenated.
+ * *_strncat - function that concatenates two strings without the null-terminator.
+ * @dest: pointer to hold concatenated string.
+ * @src: source from which string is concatenated.
  *
  * return: dest.
  */

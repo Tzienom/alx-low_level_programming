@@ -2,8 +2,8 @@
 
 /**
  * *_strncpy - function that copies a string.
- * *dest: destination for string to be copied into.
- * *src: source from which string is gotten.
+ * @dest: destination for string to be copied into.
+ * @src: source from which string is gotten.
  *
  * Return: dest.
  */
@@ -22,5 +22,5 @@ char *_strncpy(char *dest, char *src, int n)
 		dest[i] = '\0';
 		i++;
 	}
-	return dest;
+	return (dest);
 }

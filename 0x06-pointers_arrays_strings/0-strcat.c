@@ -2,10 +2,10 @@
 
 /**
  * *_strcat - function that concatenates two strings.
- * *dest: pointer to hold concatenated string.
- * *src: source from which string is concatenated.
+ * @dest: pointer to hold concatenated string.
+ * @src: source from which string is concatenated.
  *
- * Return: void.
+ * Return: dest.
  */
 char *_strcat(char *dest, char *src)
 {
@@ -24,5 +24,5 @@ char *_strcat(char *dest, char *src)
 		j++;
 	}
 	dest[i] = '\0';
-	return dest;
+	return (dest);
 }
