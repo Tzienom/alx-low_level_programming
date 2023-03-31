@@ -20,8 +20,6 @@ whitesp == '(' || whitesp == ')' || whitesp == '{' || whitesp == '}'
 		{
 			str[i] -= ('a' - 'A');
 		}
-		if (str[i] == '\t')
-			str[i] = ' ';
 		whitesp = str[i];
 	}
 	return (str);
