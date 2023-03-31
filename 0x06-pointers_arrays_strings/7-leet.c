@@ -20,8 +20,8 @@ char *leet(char *str)
 		{
 			if (str[i] == repstr[j] || str[i] == REPSTR[j])
 			{
-			       str[i] = leet[j];
-			       break;
+				str[i] = leet[j];
+				break;
 			}
 		}
 	}
