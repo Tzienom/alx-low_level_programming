@@ -2,7 +2,7 @@
 
 /**
  * reset_to_98 - function that updates the value it points to.
- * @*n: argument used to update value.
+ * @n: argument used to update value.
  *
  * Return: void.
  */

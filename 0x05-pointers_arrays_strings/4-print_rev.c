@@ -2,7 +2,7 @@
 
 /**
  * print_rev - function to print string in reverse order.
- * @*s: pointer argument used for reverse printing.
+ * @s: pointer argument used for reverse printing.
  *
  * Return: void.
  */

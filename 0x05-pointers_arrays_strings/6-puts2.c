@@ -2,7 +2,7 @@
 
 /**
  * puts2 - function that prints every two element starting from the first.
- * @*str: pointer parameter to be used in twos counting.
+ * @str: pointer parameter to be used in twos counting.
  *
  * Return: void.
  */

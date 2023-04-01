@@ -2,9 +2,9 @@
 
 /**
  * _strlen - function that returns the length of a string.
- * @*s: argument whose length is to be found.
+ * @s: argument whose length is to be found.
  *
- * Return: void.
+ * Return: length.
  */
 int _strlen(char *s)
 {
@@ -13,5 +13,5 @@ int _strlen(char *s)
 	length = 0;
 	while (s[length] != '\0')
 		length++;
-	return length;
+	return (length);
 }
